@@ -1,0 +1,16 @@
+{
+  "iou": 0.06,
+  "conf": 0.76,
+  "rate": 0.01,
+  "save_res": false,
+  "save_txt": false,
+  "save_res_path": "pre_result",
+  "save_txt_path": "pre_labels",
+  "models_path": "models",
+  "open_fold": "G:/temp/A-AiTraffic/A-exp/App/traffic_flow/MTSP-z",
+  "show_trace": false,
+  "show_labels": true,
+  "rtsp_ip": "rtsp://10.81.196.125:8554/video",
+  "car_id": "250",
+  "car_threshold": 4
+}

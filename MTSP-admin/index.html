@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MTAS" />
+    <meta name="keywords" content="MTAS" />
+    <title>MTAS系统</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+
+    <!-- ：一个使用CSS样式设置的全屏画布，用于绘制烟花效果。 -->
+    <canvas class="fireworks"
+    style="position: fixed; top: 0px; left: 0px; pointer-events: none; z-index: 9999999;"></canvas>
+  <!-- 引入外部脚本文件，用于实现烟花效果。 -->
+  <script src="https://static.ttkwsd.top/config/fireworks.min.js"></script>
+  </body>
+</html>

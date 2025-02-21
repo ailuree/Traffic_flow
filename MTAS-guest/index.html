@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 该部分包含了一些关于HTML文档的元数据和资源引用，并不直接在页面上展示内容。 -->
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- 设置浏览器标签栏的网站图标。 -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <!-- 设置移动设备的视口尺寸，使页面在不同设备上呈现一致。 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MTAS系统</title>
+
+  <!-- 引入外部CSS文件，用于样式定义。引入外部JavaScript文件，用于实现点击特定功能。 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script>
+
+  <!-- 引入APlayer外部样式文件，用于音乐播放器的样式。：引入APlayer外部脚本文件，用于实现音乐播放器的功能。引入Meting外部脚本文件，用于音乐播放器的数据加载。 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+</head>
+
+
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+  <!-- ：一个使用CSS样式设置的全屏画布，用于绘制烟花效果。 -->
+  <canvas class="fireworks"
+    style="position: fixed; top: 0px; left: 0px; pointer-events: none; z-index: 9999999;"></canvas>
+  <!-- 引入外部脚本文件，用于实现烟花效果。 -->
+  <script src="https://static.ttkwsd.top/config/fireworks.min.js"></script>
+</body>
+
+
+<style>
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
+</html>
